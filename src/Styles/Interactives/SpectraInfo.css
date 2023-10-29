@@ -1,0 +1,93 @@
+.info-card {
+  overflow: hidden;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.card-top-half {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  min-height: 250px;
+  max-width: 100%;
+}
+
+.img-curved-cutoff {
+  background-color: rgb(33, 33, 33);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  clip-path: polygon(0 16%, 100% 31%, 100% 100%, 0 100%);
+  margin-top: -40px;
+  padding: 20px 16px 10px 16px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.img-curved-cutoff h3 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.card-bottom-half {
+  background-color: rgb(33, 33, 33);
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+  max-height: inherit;
+  padding: 0px 16px 48px 16px;
+  position: relative;
+  text-align: left;
+}
+
+.card-bottom-half p {
+  padding-top: 10px;
+
+  text-overflow: ellipsis !important;
+}
+
+.hyphen {
+  background-color: #0d6efd;
+  min-height: 8px;
+  width: 48px;
+}
+
+.expansion {
+  background: linear-gradient(
+    to top,
+    black,
+    rgba(0, 0, 0, 0.639),
+    rgba(255, 255, 255, 0)
+  );
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  position: absolute;
+  min-height: 30px;
+  min-width: 100%;
+}
+
+.expansion h4 {
+  font-size: calc(1.275rem + 0.3vw);
+  margin: 0px;
+  padding: 12px 0px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.expansion h4:hover {
+  font-size: calc(1.5rem + 0.3vw);
+  cursor: pointer;
+}

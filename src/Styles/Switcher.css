@@ -1,0 +1,46 @@
+.header-transition {
+  background: linear-gradient(to top, transparent, black);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 50px;
+  text-align: center;
+}
+
+.switcher-container {
+  background: url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(230, 230, 230);
+
+  position: relative;
+  transition: 1s;
+}
+
+.switcher-col {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.switcher-col h3 {
+  display: flex;
+  transition: 0.3s;
+}
+
+.switcher-col h3:hover {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.selected-row {
+  display: block;
+  margin: 0px auto;
+}

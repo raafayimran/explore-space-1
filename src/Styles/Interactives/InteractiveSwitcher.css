@@ -1,0 +1,45 @@
+.interactive-switcher-transition {
+  background: linear-gradient(to top, transparent, black);
+  min-height: 75px;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.interactive-switcher-container {
+  background: url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(230, 230, 230);
+
+  position: relative;
+}
+
+.interactive-switcher-row {
+  padding: 0px 22px;
+  justify-content: center;
+}
+
+.interactive-switcher-col ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 64px;
+  padding: 0px !important;
+  text-align: center;
+}
+
+.interactive-switcher-col li {
+  font-size: 24px;
+}
+
+.current-interactive {
+  padding: 32px !important;
+}

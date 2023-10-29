@@ -1,0 +1,84 @@
+.hero {
+  color: rgb(230, 230, 230);
+  padding: 60px 12px 60px 12px;
+  min-height: 550px;
+  position: relative;
+}
+
+.hero-intro {
+  padding: 12px;
+  margin-left: 16px;
+}
+
+.hero-intro p {
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 12px 0px;
+}
+
+.hero-intro-wrapper h1 {
+  color: #0d6efd;
+}
+
+.hero-intro-wrapper h1,
+.hero-intro-wrapper h2 {
+  font-size: 84px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5vw;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.hero-intro-wrapper h2 {
+  font-size: 48px;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.2);
+  margin-top: -20px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.9);
+  -webkit-text-stroke-width: 1px;
+}
+
+.hero-description {
+  margin: 16px;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.hero-transition {
+  background: linear-gradient(to bottom, transparent, black);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 125px;
+  text-align: center;
+}
+
+.hero-transition h1 {
+  bottom: 0;
+  padding: 20px;
+  position: absolute;
+}
+
+@media screen and (max-width: 569px) {
+  .hero-intro-wrapper {
+    min-width: max-content;
+  }
+  .hero-intro-wrapper h1 {
+    font-size: 72px;
+  }
+
+  .hero-intro-wrapper h2 {
+    font-size: 40px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

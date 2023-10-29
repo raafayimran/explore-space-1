@@ -1,0 +1,35 @@
+.planetarium-container {
+  min-height: 1000px;
+  background-color: black;
+  color: rgb(230, 230, 230);
+  padding: 0px !important;
+  transition: 2s;
+}
+
+.planetarium-planets-container {
+  background-color: black;
+  color: rgb(230, 230, 230);
+  position: relative;
+}
+
+.planetarium-lr-fade {
+  position: absolute;
+  min-width: 25vw;
+  min-height: 100%;
+  z-index: 1 !important;
+}
+
+.planetarium-transition-row {
+  background: linear-gradient(to top, transparent, black);
+  min-height: 75px;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.planetarium-start-area {
+  min-height: 300px;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+.planetarium-hero-container {
+  min-height: 525px;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  transition: 2s;
+}
+
+.planetarium-hero-col h1 {
+  color: rgb(230, 230, 230);
+  font-family: "Orbitron", sans-serif;
+  font-size: 64px;
+  text-align: center;
+  transition: 2s;
+}
+
+.planetarium-hero-col span {
+  color: transparent;
+  font-size: 71px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.9);
+  -webkit-text-stroke-width: 1px;
+  transition: 2s;
+}
+
+.planetarium-hero-col h2,
+.planetarium-hero-col p {
+  text-align: start !important;
+  color: rgb(230, 230, 230);
+  transition: 2s;
+}
+
+.planetarium-hero-col h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  padding: 0px 18px 0px 18px;
+  transition: 2s;
+}
+
+.planetarium-hero-col p {
+  font-size: 18px;
+  margin-top: 28px;
+  padding: 0px 18px 0px 18px;
+  transition: 2s;
+}
+
+.planetarium-hero-col button {
+  font-size: 21px;
+  margin: 28px auto 20px auto;
+  min-width: 20%;
+  transition: 2s;
+  z-index: 1;
+}

@@ -1,0 +1,38 @@
+.interactive-col h1 {
+  font-size: 48px;
+  margin: 24px 0px 24px 0px;
+  text-align: center;
+}
+
+.interactive-col p {
+  font-size: 20px;
+  margin: 24px 0px 24px 0px;
+  padding: 0px 12px 0px 12px;
+}
+
+.form-range {
+  filter: brightness(0.7);
+  margin: 0 10px;
+  width: 95%;
+  transition: 0.3s;
+}
+
+.form-range:hover {
+  filter: brightness(1);
+}
+
+.slider-label {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.controls-row {
+  padding: 12px 0px;
+}
+
+.switch-column {
+  background-color: transparent !important;
+}

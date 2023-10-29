@@ -1,0 +1,62 @@
+.planetarium {
+  min-height: 300px;
+  text-align: center;
+}
+
+.planetarium-change-planet {
+  align-items: center;
+  display: flex;
+  color: rgb(230, 230, 230);
+  flex-direction: row;
+
+  min-height: 100px;
+  max-width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 2s;
+  z-index: 2 !important;
+}
+
+.planetarium-change-planet h1,
+.planetarium-change-planet h2 {
+  font-size: 60px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.planetarium-change-planet h2:hover {
+  font-size: 70px;
+  cursor: pointer;
+}
+
+.planetarium-change-planet p {
+  margin-top: -20px;
+  margin-bottom: 0px !important;
+}
+
+.planetarium-quick-facts {
+  align-items: center;
+  color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  min-width: 50vw;
+
+  text-align: left;
+  text-transform: capitalize;
+  transition: 2s;
+
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+}
+
+.planetarium-quick-facts ul {
+  margin-left: -70px;
+}
+
+@media screen and (max-width: 569px) {
+  .planetarium-change-planet {
+    max-width: none;
+  }
+}
