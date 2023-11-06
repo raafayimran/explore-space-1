@@ -2,7 +2,7 @@ export default [
   {
     id: 0,
     planetName: "sun",
-    planetLink: "/assets/0-sun.glb",
+    planetLink: "/public/assets/0-sun.glb",
     quickFacts: [
       "Mass: 1.989 x 10^30 kg",
       "Diameter: 1.3927 x 10^6 km",
@@ -16,7 +16,7 @@ export default [
   {
     id: 1,
     planetName: "mercury",
-    planetLink: "/assets/1-mercury.glb",
+    planetLink: "/public/assets/1-mercury.glb",
     quickFacts: [
       "Mass: 0.330 x 10^24 kg",
       "Diameter: 4879 km",
@@ -33,7 +33,7 @@ export default [
   {
     id: 2,
     planetName: "venus",
-    planetLink: "/assets/2-venus.glb",
+    planetLink: "/public/assets/2-venus.glb",
     quickFacts: [
       "Mass: 4.87 x 10^24 kg",
       "Diameter: 12,104 km",
@@ -50,7 +50,7 @@ export default [
   {
     id: 3,
     planetName: "earth",
-    planetLink: "/assets/3-earth.glb",
+    planetLink: "/public/assets/3-earth.glb",
     quickFacts: [
       "Mass: 5.97 x 10^24 kg",
       "Diameter: 12,756 km",
@@ -67,7 +67,7 @@ export default [
   {
     id: 4,
     planetName: "mars",
-    planetLink: "/assets/4-mars.glb",
+    planetLink: "/public/assets/4-mars.glb",
     quickFacts: [
       "Mass: 0.642 x 10^24 kg",
       "Diameter: 6792 km",
@@ -84,7 +84,7 @@ export default [
   {
     id: 5,
     planetName: "jupiter",
-    planetLink: "/assets/5-jupiter.glb",
+    planetLink: "/public/assets/5-jupiter.glb",
     quickFacts: [
       "Mass: 1898 x 10^24 kg",
       "Diameter: 142,984 km",
@@ -101,7 +101,7 @@ export default [
   {
     id: 6,
     planetName: "saturn",
-    planetLink: "/assets/6-saturn.glb",
+    planetLink: "/public/assets/6-saturn.glb",
     quickFacts: [
       "Mass: 568 x 10^24 kg",
       "Diameter: 120,536 km",
@@ -118,7 +118,7 @@ export default [
   {
     id: 7,
     planetName: "uranus",
-    planetLink: "/assets/7-uranus.glb",
+    planetLink: "/public/assets/7-uranus.glb",
     quickFacts: [
       "Mass: 86.8 x 10^24 kg",
       "Diameter: 51,118 km",
@@ -135,7 +135,7 @@ export default [
   {
     id: 8,
     planetName: "neptune",
-    planetLink: "/assets/8-neptune.glb",
+    planetLink: "/public/assets/8-neptune.glb",
     quickFacts: [
       "Mass: 102 x 10^24 kg",
       "Diameter: 49,528 km",
