@@ -6,7 +6,7 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
 export function Saturn(props) {
-  const { nodes, materials } = useGLTF("/assets/saturn.glb");
+  const { nodes, materials } = useGLTF("./assets/saturn.glb");
   let scale; // = 0.0015;
   {
     props.median === true ? (scale = 0.0024) : (scale = 0.0012);
@@ -59,4 +59,4 @@ export function Saturn(props) {
   );
 }
 
-useGLTF.preload("/assets/saturn.glb");
+useGLTF.preload("./assets/saturn.glb");
