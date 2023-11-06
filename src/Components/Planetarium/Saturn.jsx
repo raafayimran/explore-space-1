@@ -59,4 +59,4 @@ export function Saturn(props) {
   );
 }
 
-useGLTF.preload("/assets/6-saturn.glb");
+useGLTF.preload("/public/assets/saturn.glb");
